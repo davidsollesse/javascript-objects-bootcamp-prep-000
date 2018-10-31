@@ -14,6 +14,7 @@ function updatePlaylist(playlist, artist, song) {
 //originally used create object, and used artistName and songTitle without checking prior values
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artist;
+//  delete playlist.artist;
+  delete playlist[artist];
   return
 }

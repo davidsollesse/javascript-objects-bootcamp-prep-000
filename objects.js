@@ -6,7 +6,8 @@ var playlist = {
 //Showing can string keys
 
 function updatePlaylist(playlist, artist, song) {
-  var playlist = {artist: song};
+  //var playlist = {artist: song};
+  playlist[artist] = song
   return
 }
-//used artistName and songTitle without checking prior values
+//originally used create object and used artistName and songTitle without checking prior values

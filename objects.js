@@ -10,4 +10,5 @@ function updatePlaylist(playlist, artist, song) {
   playlist[artist] = song
   return
 }
-//originally used create object and used artistName and songTitle without checking prior values
+//no change for string
+//originally used create object, and used artistName and songTitle without checking prior values

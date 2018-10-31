@@ -13,7 +13,8 @@ function updatePlaylist(playlist, artist, song) {
 //no change for string
 //originally used create object, and used artistName and songTitle without checking prior values
 
-function removeFromPlaylist(playlist, artist)
+
+function removeFromPlaylist(playlist, artist) {
   delete playlist.artist;
   return
-playlist
+}
